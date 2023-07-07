@@ -1,11 +1,11 @@
 import React from "react";
 import Home from "./Home";
-import Nav from "./Nav";
+
 import About from "./About";
-import EmojiButtonButton from "./EmojiButton";
+import EmojiButton from "./EmojiButton";
 import Card from "./Card";
 import Header from "./Header";
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 
 
 
@@ -28,13 +28,18 @@ function App() {
     <div>
       <Header />
       <main>
-        <Card title="Welcome to PetLand!">
-          <em>Find your dream pet</em>
+        <Card title="Welcome to ComicLand!">
+          <em>Find your Hero</em>
         </Card>
-        <Card title="What pets would you like to see?">
+        <Card title="What Icons would you like to see?">
           <div>
-            <EmojiButton emoji="😸" label="Cats" />
-            <EmojiButton emoji="🐕" label="Dogs" />
+            <EmojiButton emoji="💀" label="Heros" />
+            <EmojiButton emoji="💀" label="Villians" />
+          </div>
+          <div>
+
+            <Home />
+            <About />
           </div>
         </Card>
       </main>
@@ -42,5 +47,5 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
 export default App

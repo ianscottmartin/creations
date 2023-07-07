@@ -1,12 +1,12 @@
-import { ReactDOM } from "react";
-import PushButton from "./EmojiButton";
+import React from "react";
+import EmojiButton from "./EmojiButton";
 
 
 
 function Header() {
     return (
         <header>
-            <h1>PetLand</h1>
+            <h1>ComicLand</h1>
             <nav>
                 <EmojiButton emoji="💀" label="Login" />
             </nav>
