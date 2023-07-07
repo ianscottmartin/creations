@@ -17,6 +17,7 @@ h5,
 h6 {
   font-family: "Playfair Display", serif;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 nav {
@@ -53,6 +54,7 @@ nav a:active {
   height: 50vh;
   min-height: 400px;
   padding: 1rem;
+  background-color: aqua;
 }
 
 #home {
@@ -61,4 +63,9 @@ nav a:active {
 
 #about img {
   max-height: 50%;
+  background-color: aqua;
+}
+button {
+  align-self: right;
+  color: rgb(140, 66, 9);
 }
